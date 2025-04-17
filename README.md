@@ -30,16 +30,17 @@ Users should be able to:
 ### Screenshot
 
 ####Desktop
-[](./screenshots/desktop.jpg)
-[](./screenshots/desktop-active.jpg)
+![](./screenshots/desktop.jpg)
+![](./screenshots/desktop-active.jpg)
 
 ####Mobile
-[](./screenshots/mobile.jpg)
-[](./screenshots/mobile-active.jpg)
+![](./screenshots/mobile.jpg)
+![](./screenshots/mobile-active.jpg)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/AnthonyCampana/base-apparel-coming-soon-master)
+- Live Site URL: [live site URL](https://anthonycampana.github.io/base-apparel-coming-soon-master/)
 
 ## My process
 
@@ -59,7 +60,7 @@ From this challenge I was able to learn how to manipulate the DOM based on user 
 ### Useful resources
 
 - [mdn mozilla web docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content) - I utilized the resource by learning more about the properties I needed to replicate the design given
-- [Stack Oveflow](https://stackoverflow.com/questions) - This helped me understand the properties and layout I need to the button and its effects. 
+- [Stack Oveflow](https://stackoverflow.com/questions) - This helped me understand the properties and layout I needed for the button and its effects. 
 
 ## Author
 
