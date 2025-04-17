@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 376px) {
+    body {
+        width: 100vw;
+        height: 101vh;
+    }
+
+    main {
+        height: 99.01%;
+        width: 100%;
+        display: flex;
+    }
+
+    .content-container {
+        height: 100%;
+        width: 57.7%;
+        background-image: url(../images/bg-pattern-desktop.svg);
+        background-size: auto;
+        display: flex;
+        flex-direction: column;
+        background-position-x: 353px;
+        background-position-y: 301px;
+        background-blend-mode: lighten;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .content-container > img {
+        width: 19.1%;
+        margin-top: 7.9%;
+        margin-left: 19.9%;
+    }
+
+    .page-title {
+        width: 50%;
+        font-size: 64.8px;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        margin-top: 16.0%;
+        line-height: 68.9px;
+        margin-left: 19.7%;
+        letter-spacing: 16.9px;
+    }
+
+    h1 > span {
+        color: hsl(0, 36%, 70%);
+        font-weight: 300;
+    }
+
+    .page-description {
+        width: 51.5%;
+        margin-left: 20%;
+        margin-top: 2.6%;
+        color: hsl(0, 36%, 70%);
+        font-family: "Josefin Sans", sans-serif;
+        font-style: normal;
+        line-height: 27px;
+        font-size: 15.7px;
+        font-weight: 600;
+    }
+    
+    .image-container {
+        height: 100%;
+        width: 42.3%;
+        background-image: url("../images/hero-desktop.jpg");
+        background-size: cover;
+        background-position-x: -1px;
+    }
+
+    form {
+        margin-top: 4.8%;
+        height: 6.9%;
+        margin-left: 19.8%;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border-radius: 27px;
+        border: .5px solid hsl(0, 36%, 70%);
+        width: 53.5%;
+    }
+
+    form > input {
+        height: 94%;
+        width: 262px;
+        border-radius: 27px;
+        margin-top: 0.8%;
+        flex-grow: 2;
+        border: none;
+        margin-left: 7%;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 16px;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .error-icon {
+        display: none;
+        width: 5.5%;
+        margin-right: 3.5%;
+        height: 44.5%;
+        margin-top: 3.8%;
+    }
+
+    #formSubmission {
+        width: 22.5%;
+        height: 101%;
+        background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+        border-radius: 27px;
+        border: none;
+        display: inline-block;
+    }
+
+    button > img {
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+
+    .error-message {
+        display: none;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 13px;
+        color: hsl(0, 93%, 68%);
+        margin-top: 1.3%;
+        margin-left: 23.7%;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 100vw;
+        height: 101vh;
+    }
+
+    main {
+        height: 99.01%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: hsl(0, 80%, 86%, .2);
+    }
+
+    .content-container {
+        height: 100%;
+        width: 84%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-container > img {
+        width: 32.1%;
+        margin-top: 13.6%;
+        margin-left: .6%;
+    }
+
+    .page-title {
+        width: 77%;
+        font-size: 41px;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        margin-top: 109.9%;
+        line-height: 42px;
+        margin-left: 11.7%;
+        letter-spacing: 10px;
+        text-align: center;
+    }
+
+    h1 > span {
+        color: hsl(0, 36%, 70%);
+        font-weight: 300;
+        letter-spacing: 10.8px;
+    }
+
+    .page-description {
+        width: 95%;
+        margin-left: 2.8%;
+        margin-top: 5%;
+        color: hsl(0, 36%, 70%);
+        font-family: "Josefin Sans", sans-serif;
+        font-style: normal;
+        line-height: 22px;
+        font-size: 13.8px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .image-container {
+        display: block;
+        height: 33%;
+        width: 100%;
+        background-image: url(../images/hero-mobile.jpg);
+        background-position-x: 1px;
+        position: absolute;
+        top: 6rem;
+        background-repeat: no-repeat;
+    }
+
+    form {
+        margin-top: 9.8%;
+        height: 5.9%;
+        margin-left: 1%;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border-radius: 27px;
+        border: .5px solid hsl(0, 36%, 70%);
+    }
+
+    form > input {
+        height: 94%;
+        width: 180px;
+        border-radius: 27px;
+        margin-top: 0.8%;
+        flex-grow: 2;
+        border: none;
+        margin-left: 7%;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 14px;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .error-icon {
+        display: none;
+        width: 7.5%;
+        margin-right: 4.5%;
+        height: 50%;
+        margin-top: 4%;
+    }
+
+    #formSubmission {
+        width: 20.5%;
+        height: 101%;
+        background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+        border-radius: 27px;
+        border: none;
+        display: inline-block;
+        padding-bottom: -1%;
+    }
+
+    button > img {
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+
+    .error-message {
+        display: none;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 13px;
+        color: hsl(0, 93%, 68%);
+        margin-top: 1.3%;
+        margin-left: 23.7%;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
